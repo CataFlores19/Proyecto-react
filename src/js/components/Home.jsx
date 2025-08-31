@@ -34,19 +34,47 @@ const Home = () => {
 			{/* Contenedor de las tarjetas */}
 			<div className="row text-center">
 				<div className="col-sm-3">
-					<Card />
+					<Card
+					    imgUrl = "https://placehold.co/500x325"
+    					imgAlt = "img"
+    					title = "Card Title"
+    					description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus mi vel laoreet aliquet. In hac habitasse platea dictumst. Pellentesque quis ultrices nulla. In hac habitasse platea dictumst."
+    					linkUrl = "#"
+    					linkText = "Find Out More!"
+					/>
 				</div>
 
 				<div className="col-sm-3">
-					<Card />
+					<Card 
+						imgUrl = "https://placehold.co/500x325"
+    					imgAlt = "img"
+    					title = "Card Title"
+    					description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus mi vel laoreet aliquet. In hac habitasse platea dictumst. Pellentesque quis ultrices nulla. In hac habitasse platea dictumst."
+    					linkUrl = "#"
+    					linkText = "Find Out More!"
+					/>
 				</div>
 
 				<div className="col-sm-3">
-					<Card />
+					<Card 
+						imgUrl = "https://placehold.co/500x325"
+    					imgAlt = "img"
+    					title = "Card Title"
+    					description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus mi vel laoreet aliquet. In hac habitasse platea dictumst. Pellentesque quis ultrices nulla. In hac habitasse platea dictumst."
+    					linkUrl = "#"
+    					linkText = "Find Out More!"
+					/>
 				</div>
 
 				<div className="col-sm-3">
-					<Card />
+					<Card 
+						imgUrl = "https://placehold.co/500x325"
+    					imgAlt = "img"
+    					title = "Card Title"
+    					description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus mi vel laoreet aliquet. In hac habitasse platea dictumst. Pellentesque quis ultrices nulla. In hac habitasse platea dictumst."
+    					linkUrl = "#"
+    					linkText = "Find Out More!"
+					/>
 				</div>
 			</div>
 		</div>
